@@ -1,0 +1,61 @@
+.recentChanges {
+  display: grid;
+  gap: 1.75rem;
+}
+
+header h2 {
+  margin: 0 0 0.5rem;
+  color: var(--color-text-primary);
+}
+
+header p {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.changeList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  background: var(--color-background);
+}
+
+.item h3 {
+  margin: 0;
+  color: var(--color-text-primary);
+}
+
+.item p {
+  margin: 0.35rem 0 0;
+  color: var(--color-text-secondary);
+}
+
+.meta {
+  display: grid;
+  justify-items: end;
+  gap: 0.35rem;
+  color: var(--color-text-tertiary);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .item {
+    flex-direction: column;
+  }
+
+  .meta {
+    justify-items: start;
+    font-size: 0.85rem;
+  }
+}

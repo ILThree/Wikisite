@@ -1,0 +1,37 @@
+.page {
+  display: grid;
+  gap: 2rem;
+}
+
+header h2 {
+  margin: 0;
+}
+
+.summary {
+  margin: 0.75rem 0 0;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.placeholder {
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px dashed rgba(79, 70, 229, 0.4);
+  background: rgba(79, 70, 229, 0.05);
+  color: var(--color-text-secondary);
+}
+
+.notFound {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.notFound h2 {
+  margin-bottom: 0;
+}
+
+.notFound p {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
